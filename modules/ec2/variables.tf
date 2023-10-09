@@ -1,3 +1,4 @@
+#Archivo contiene las variables de entrada que espera el modulo de ec2
 variable "ami" {
   description = "Name of ami"
   type        = string

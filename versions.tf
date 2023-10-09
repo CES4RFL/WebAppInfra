@@ -1,3 +1,4 @@
+#Contiene la declaracion del conjunto de utilerias para el aprovisionamiento de infraestructura en AWS
 terraform {
   required_providers {
     aws = {

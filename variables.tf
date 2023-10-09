@@ -1,3 +1,4 @@
+#Contiene variables de entrada del aprovisionamiento principal del archivo main de ambientes
 variable "ami" {
   description = "Name of ami"
   type        = string
