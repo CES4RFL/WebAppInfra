@@ -12,3 +12,5 @@ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stabl
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 #inicializa la herramienta kubectl
 minikube start
+#Comando necesario para utilizar imagenes del repositorio local de docker
+eval $(minikube -p minikube docker-env) 
