@@ -4,4 +4,4 @@
 ami = "ami-053b0d53c279acc90"
 #Define la familia fue seleccionada la familia t3a.small  debido al requetimiento de
 #instalacion de minikube 2 cores y 2 gb de ram
-machine_type = "t3a.small"
+machine_type = "t3a.medium"
